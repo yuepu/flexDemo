@@ -1,0 +1,129 @@
+body{
+    margin: 20px;
+    background: #eeee;
+}
+a{
+    color: #3385ff;
+}
+.header{
+    margin-bottom: 20px;
+    line-height: 30px;
+
+}
+.demo-tips{
+    border-bottom: 1px solid #cdcdcd;
+    padding-bottom: 10px;
+}
+.demo-code{
+    background: #cdcdcd;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.box{
+    border: 1px solid red;
+    margin: 10px;
+    background: #fff;
+    display:flex;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    vertical-align: middle;
+    margin: 5px;
+    background-color: #ffd200;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+.align-items .height300{
+    height: 300px;
+    line-height: 300px;
+}
+.height500{
+    height: 500px;
+}
+.width100{
+    width: 100px;
+}
+.width60{
+    width: 60px;
+}
+.width500{
+    width: 500px;
+}
+.direction{
+    flex-direction:row-reverse;
+   /* flex-direction:row;
+    flex-direction:column;
+    flex-direction:column-reverse;
+    */
+}
+.wrap{
+    flex-wrap:wrap;
+  /*  flex-wrap:wrap-reverse;
+    flex-wrap:nowrap;*/
+}
+.flex-flow{
+    flex-flow:row-reverse nowrap;
+}
+.justify{
+    justify-content:center;
+    /*justify-content:flex-end;*/
+}
+.align-items .item{
+    height: auto;
+}
+.align-items{
+    align-items: stretch  ;
+   /* align-items:  flex-start;
+    align-items: flex-end;
+    align-items: baseline;
+    align-items: stretch;*/
+}
+.align-content{
+    align-content: flex-end;
+    flex-wrap:wrap;
+}
+
+/*设置在项目上的6个属性*/
+.order-tip{
+    font-size: 14px;
+    position: relative;
+    top: -140px;
+}
+.order{
+    order:-1;
+}
+.grow .grow-1{
+    flex-grow: 1;
+}
+.grow .grow-2{
+    flex-grow: 2;
+}
+.grow .grow-3{
+    flex-grow: 3;
+}
+.shrink .shrink-1{
+    flex-shrink: 1;
+}
+.shrink .shrink-2{
+    flex-shrink: 2;
+}
+.shrink .shrink-3{
+    flex-shrink: 3;
+}
+.box .flex-basis{
+    flex-basis: 400px;
+    width: 200px;
+}
+.box .item.flex{
+    flex:0 1 300px;
+}
+.box .align-self{
+    height: auto;
+    align-self: stretch;
+}
